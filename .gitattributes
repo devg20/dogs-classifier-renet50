@@ -1,2 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+dogs_clf_v5_30.h5 filter=lfs diff=lfs merge=lfs -text
+dogs_clf_v7_10.h5 filter=lfs diff=lfs merge=lfs -text
+*.h5 filter=lfs diff=lfs merge=lfs -text
