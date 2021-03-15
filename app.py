@@ -21,7 +21,7 @@ cors = CORS(app)
 app.config['CORS_HEADERS'] = 'Content-Type'
 req_labels = "beagle, chihuahua, doberman, french_bulldog, golden_retriever, malamute, pug, saint_bernard, scottish_deerhound, tibetan_mastiff"
 req_labels = req_labels.split(", ")
-model = tf.keras.models.load_model("dogs_clf_v5_30.h5")
+model = tf.keras.models.load_model("dogs_clf_v7_10.h5")
 global graph
 graph = tf.compat.v1.get_default_graph()
 
