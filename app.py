@@ -8,7 +8,6 @@ which is not allowed on heroku free tier. So here is the code.
 from flask import Flask, request, jsonify, render_template
 from flask_cors import CORS, cross_origin
 import json
-import pandas as pd
 import os
 #os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
 import base64
