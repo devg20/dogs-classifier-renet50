@@ -15,6 +15,7 @@ import numpy as np
 import io
 import tensorflow as tf
 from tf.keras.applications.resnet50 import ResNet50
+mod = ResNet50(weights='imagenet')
 from PIL import Image
 tf.compat.v1.disable_eager_execution()
 app = Flask(__name__)
